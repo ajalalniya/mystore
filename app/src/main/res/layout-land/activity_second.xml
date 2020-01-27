@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffe5e5e5">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/part_name"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimary">
+
+
+                <co.appsazan.mystore.myview.MyTextView
+                    android:id="@+id/txtDetailTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/imgDetailImage"
+                    android:layout_marginTop="32dp"
+                    android:layout_toLeftOf="@+id/imgDetailImage"
+                    android:text="name"
+                    android:textColor="@color/background"
+                    android:textSize="20dp" />
+
+                <ImageView
+                    android:id="@+id/imgDetailImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@mipmap/ic_launcher" />
+
+                <co.appsazan.mystore.myview.MyButton
+                    android:id="@+id/btnDetailDownload"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/imgDetailImage"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:background="@drawable/button"
+                    android:text="دانلود"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="10dp" />
+
+                <co.appsazan.mystore.myview.MyTextView
+                    android:id="@+id/txtDetailDesc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/txtDetailTitle"
+                    android:layout_below="@+id/txtDetailTitle"
+                    android:text="Medium Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <RatingBar
+                    android:id="@+id/ratingBar"
+                    style="?android:attr/ratingBarStyleSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/txtDetailTitle"
+                    android:layout_below="@id/txtDetailDesc"
+                    android:layout_centerHorizontal="true"
+                    android:numStars="5"
+                    android:rating="3"
+                    android:stepSize="0.5" />
+
+            </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:id="@+id/part_screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginBottom="20dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/screenshotimg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp">
+
+
+            </android.support.v7.widget.RecyclerView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/part_detail"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+
+            <co.appsazan.mystore.myview.MyTextView
+                android:id="@+id/txtLblDetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignRight="@+id/txtLblSize"
+                android:text="اطلاعات"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <co.appsazan.mystore.myview.MyTextView
+                android:id="@+id/txtDetailVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtDetailSize"
+                android:layout_alignTop="@+id/txtLblVersion"
+                android:text="name"
+                android:textColor="#000000" />
+
+            <co.appsazan.mystore.myview.MyTextView
+                android:id="@+id/txtLblVersion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/txtLblPrice"
+                android:layout_below="@+id/txtLblPrice"
+                android:layout_marginTop="10dp"
+                android:text="نسخه"
+                android:textColor="#000000" />
+
+            <co.appsazan.mystore.myview.MyTextView
+                android:id="@+id/txtDetailPrise"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtDetailSize"
+                android:layout_alignTop="@+id/txtLblPrice"
+                android:text="name"
+                android:textColor="#000000" />
+
+            <co.appsazan.mystore.myview.MyTextView
+                android:id="@+id/txtLblPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/txtLblSize"
+                android:layout_below="@+id/txtLblSize"
+                android:layout_marginTop="10dp"
+                android:text="قیمت"
+                android:textColor="#000000" />
+
+            <co.appsazan.mystore.myview.MyTextView
+                android:id="@+id/txtDetailSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/txtLblSize"
+                android:layout_marginEnd="31dp"
+                android:layout_marginRight="41dp"
+                android:layout_toStartOf="@+id/txtLblDetail"
+                android:text="name"
+                android:textColor="#000000" />
+
+            <co.appsazan.mystore.myview.MyTextView
+                android:id="@+id/txtLblSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txtLblDetail"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="35dp"
+                android:text="حجم"
+                android:textColor="#000000" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.2"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.6"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.2"
+                android:orientation="vertical"></LinearLayout>
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/part_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <co.appsazan.mystore.myview.MyTextView
+                android:id="@+id/txtLblDescrib"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:text="توضیحات"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <co.appsazan.mystore.myview.MyTextView
+                android:id="@+id/txtDetailDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/txtLblDescrib"
+                android:layout_gravity="right"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="21dp"
+                android:gravity="right"
+                android:text="name" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

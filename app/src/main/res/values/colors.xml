@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <color name="colorPrimary">#583a68</color>
+    <color name="colorPrimaryDark">#502b64</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="background">#F6FAFB</color>
+    <color name="app_title">#4c4c4c</color>
+    <color name="jost">#4D1894</color>-->
+
+
+    <color name="colorPrimary">#202020</color>
+    <color name="colorPrimaryDark">#131313</color>
+    <color name="colorAccent">#ff9501</color>
+    <color name="background">#171717</color>
+    <color name="app_title">#4c4c4c</color>
+    <color name="jost">#4D1894</color>
+
+ <!--   <color name="colorPrimaryGame">#202020</color>
+    <color name="colorPrimaryDarkGame">#131313</color>
+    <color name="colorAccentGame">#ff9501</color>
+    <color name="backgroundGame">#171717</color>-->
+    <color name="WhiteGame">#fafafa</color>
+    <color name="tabsGame">#1b1b1b</color>
+
+</resources>

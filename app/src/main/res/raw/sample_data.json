@@ -1,0 +1,5 @@
+{
+  "mode": "game",
+  "struct": "MyBanner:url,MyAppList:پیشنهادی:url:urlMore,MyAppList:تازه ها:url:urlMore,VeryBestApps:url,MyAppList:title:url:urlMore,MyCollection:title:url",
+  "theme": "MyThemeGame"
+}

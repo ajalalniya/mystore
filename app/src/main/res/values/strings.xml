@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MyStore</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="salam">salam</string>
+<string name="bookmark">&#xf02e;</string>
+<string name="bookmark_io">&#xf097;</string>
+<string name="fa_angle_down">&#xf107;</string>
+<string name="fa_angle_up">&#xf106;</string>
+<string name="fa_angle_left">&#xf104;</string>
+
+    <string-array name="categories_item">
+        <item>@string/amuzeshi</item>
+        <item>@string/strategy</item>
+        <item>@string/takhteyi</item>
+        <item>@string/sargarmi</item>
+        <item>@string/khanevadegi</item>
+        <item>@string/danestaniha</item>
+        <item>@string/reghabati</item>
+        <item>@string/shabihsazi</item>
+        <item>@string/kalamat</item>
+        <item>@string/majarajuyi</item>
+        <item>@string/moamayi</item>
+        <item>@string/mosabeghevasorat</item>
+        <item>@string/naghshafarini</item>
+        <item>@string/music</item>
+        <item>@string/hayajaani</item>
+        <item>@string/varzeshi</item>
+    </string-array>
+
+
+
+    <string name="amuzeshi">آموزشی</string>
+    <string name="strategy">استراتژی</string>
+    <string name="takhteyi">تخته ای</string>
+    <string name="sargarmi">سرگرمی</string>
+    <string name="khanevadegi">خانوادگی</string>
+    <string name="danestaniha">اطلاعات عمومی</string>
+    <string name="reghabati">رقابتی</string>
+    <string name="shabihsazi">شبیه سازی</string>
+    <string name="kalamat">کلمات</string>
+    <string name="majarajuyi">ماجراجویی</string>
+    <string name="mosabeghevasorat">مسابقه ای</string>
+    <string name="moamayi">معمایی</string>
+    <string name="music">موسیقیایی</string>
+    <string name="naghshafarini">نقش آفرینی</string>
+    <string name="varzeshi">ورزشی</string>
+    <string name="hayajaani">هیجانی</string>
+
+    <string name="all_app">همه</string>
+    <string name="installed">نصب شده</string>
+    <string name="will_instal">نصب می کنم</string>
+
+    <string name="free">رایگان</string>
+    <string name="news">تازه ها</string>
+</resources>

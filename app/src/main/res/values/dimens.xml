@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="card_top_margin">40dp</dimen>
+    <dimen name="margin_between_card">2dp</dimen>
+    <dimen name="margin_between_card_left">2dp</dimen>
+    <dimen name="card_hight">160dp</dimen>
+    <dimen name="card_width">90dp</dimen>
+    <dimen name="ic_album_overflow_width">5dp</dimen>
+    <dimen name="ic_album_overflow_height">15dp</dimen>
+    <dimen name="ic_album_overflow_margin_top">20dp</dimen>
+
+
+    <dimen name="card_top_margin_best">40dp</dimen>
+    <dimen name="margin_between_card_best">2dp</dimen>
+    <dimen name="margin_between_card_lef_bestt">2dp</dimen>
+    <dimen name="card_hight_best">160dp</dimen>
+    <dimen name="card_width_best">110dp</dimen>
+    <dimen name="ic_album_overflow_width_best">5dp</dimen>
+    <dimen name="ic_album_overflow_height_best">15dp</dimen>
+    <dimen name="ic_album_overflow_margin_top_best">20dp</dimen>
+
+    <dimen name="backdrop_title">30dp</dimen>
+    <dimen name="backdrop_subtitle">18dp</dimen>
+    <dimen name="detail_backdrop_height">250dp</dimen>
+
+
+
+
+
+
+
+
+</resources>

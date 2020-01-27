@@ -1,0 +1,46 @@
+[
+  {
+    "appname": "غیر قابل تصور",
+    "desc": "رایگان",
+    "imgurl": "https://s.cafebazaar.ir/1/icons/com.DevLog.Undreamed_128x128.png",
+    "url": "bb1"
+  },
+  {
+    "appname": "مزرعه شگفت انگیز",
+    "desc": "رایگان",
+    "imgurl": "https://s.cafebazaar.ir/1/icons/com.fuxincb.starfarm_128x128.png",
+    "url": "bb2"
+  }
+  ,
+  {
+    "appname":  "پادشاه کلمات",
+    "desc": "رایگان",
+    "imgurl": "https://s.cafebazaar.ir/1/icons/com.golabi.kingofwords_128x128.png",
+    "url": "bb3"
+  },
+  {
+    "appname": "اوجولات لند",
+    "desc": "رایگان",
+    "imgurl": "https://s.cafebazaar.ir/1/icons/com.una.unblockme2_128x128.png",
+    "url": "bb4"
+  },
+  {
+    "appname": "بوق",
+    "desc": "رایگان",
+    "imgurl": "https://s.cafebazaar.ir/1/icons/com.DynamicArt.horn_128x128.png",
+    "url": "bb5"
+  },
+  {
+    "appname": "Google Trips",
+    "desc": "رایگان",
+    "imgurl": "https://s.cafebazaar.ir/1/icons/com.google.android.apps.travel.onthego_128x128.png",
+    "url": "bb6"
+  },
+  {
+    "appname": "Allo",
+    "desc": "رایگان",
+    "imgurl": "https://s.cafebazaar.ir/1/icons/com.google.android.apps.fireball_128x128.png",
+    "url": "bb7"
+  }
+]
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<RelativeLayout
+    android:id="@+id/relCategoryItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp">
+
+    <ImageView
+        android:id="@+id/imgCategoryItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="5dp"/>
+
+    <co.appsazan.mystore.myview.MyTextView
+        android:id="@+id/txtCategoryItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        style="?android:attr/textAppearanceMedium"
+        android:text="item"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/imgCategoryItem" />
+<co.appsazan.mystore.myview.MyTextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="بیشتر"
+    android:layout_marginLeft="20dp"
+    android:textColor="#ffffff"
+    style="?android:attr/textAppearance"
+    android:layout_centerVertical="true"
+    android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/imgCategoryItem"
+        android:background="#0affffff"></LinearLayout>
+</LinearLayout>

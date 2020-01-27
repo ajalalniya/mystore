@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/relWishList"  android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/imgMWL"
+        android:src="@mipmap/ic_launcher"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true" />
+
+    <co.appsazan.mystore.myview.MyTextViewBold
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/textAppearance"
+        android:text="New Text"
+        android:id="@+id/txtTitleMWL"
+        android:layout_alignTop="@+id/imgMWL"
+        android:layout_toStartOf="@+id/imgMWL"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"/>
+
+    <co.appsazan.mystore.myview.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtDescMWL"
+        android:layout_below="@+id/txtTitleMWL"
+        android:layout_alignEnd="@+id/txtTitleMWL" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarMWL"
+        style="?android:attr/ratingBarStyleSmall"
+        android:progressTint="@color/colorAccent"
+        android:numStars="5"
+        android:rating="3"
+        android:stepSize="0.5"
+        android:layout_alignBottom="@+id/imgMWL"
+        android:layout_alignEnd="@+id/txtTitleMWL" />
+
+    <co.appsazan.mystore.myview.MyButton
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:text="نصب"
+        android:id="@+id/btnDetailMWL"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/btn_download2"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+
+        android:background="#0affffff"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/imgMWL"
+        ></LinearLayout>
+</RelativeLayout>
